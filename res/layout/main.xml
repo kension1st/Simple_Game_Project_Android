@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:background="@drawable/bg">
+    <Button android:textColor="#FFFF00" android:layout_centerInParent="true" android:text="EXIT" android:textSize="15dip" android:id="@+id/keluar" android:layout_width="125dip" android:background="@drawable/benar" android:textStyle="bold" android:layout_height="40dip" android:layout_margin="20dip"></Button>
+    <Button android:textColor="#FFFF00" android:id="@+id/option" android:textSize="15dip" android:text="OPTION" android:layout_width="wrap_content" android:layout_below="@+id/keluar" android:textStyle="bold" android:layout_alignLeft="@+id/keluar" android:layout_alignRight="@+id/keluar" android:background="@drawable/benar" android:layout_height="40dip"></Button>
+    <Button android:textColor="#FFFF00" android:id="@+id/play" android:textSize="15dip" android:layout_width="wrap_content" android:layout_above="@+id/keluar" android:textStyle="bold" android:layout_alignLeft="@+id/keluar" android:layout_alignRight="@+id/keluar" android:text="PLAY" android:background="@drawable/benar" android:layout_height="40dip"></Button>
+    <TextView android:textSize="25dip" android:layout_width="match_parent" android:gravity="center" android:id="@+id/textView1" android:textColor="#FFFF00" android:textStyle="bold" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:text="MENU"></TextView>
+</RelativeLayout>
